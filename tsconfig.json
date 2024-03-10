@@ -1,0 +1,10 @@
+{
+  "extends": "astro/tsconfigs/base",
+  //Ayuda a mejorar la importaciones en vez utilizar .. se utilizara @
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*":["./src/*"]
+    }
+  }
+}
